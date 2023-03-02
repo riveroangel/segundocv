@@ -1,0 +1,156 @@
+
+<<!DOCTYPE html>
+<html lang="es">
+    <!--codigo de codigo web como referencia  y aprender un poco de responsi -->
+    <head>
+        <title>Curriculum Rivero</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+            <!-- encabezado y menu-->
+            <header>
+                <h1 class="gradient-text">ANGEL RIVERO</h1>
+                <nav id="nav">
+                  <a href="#inicio" onclick="selecionar()">Inicio</a>
+                  <a href="#sobremi" onclick="selecionar()">Sobre mi</a>
+                  <a href="#Curriculum" onclick="selecionar()">Curriculum</a>
+                  <a href="#porfolio" onclick="selecionar()">Porfolio</a>
+                  <a href="#contacto" onclick="selecionar()">Contacto</a>
+
+                </nav>
+                <!-- icono del menu responsi-->
+                <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+
+            </header>
+            <!--seccion inicio-->
+            <section id="inicio">
+                <div class="fila">
+                    <div class="col">
+                        <p> Soy Miguel Angel </p>
+                        <h1 class="gradient-text"> Nivel Inicial de Html Css Javascrip</h1>
+                        <button ><a  class="sinsubrayado"    href="#contacto" onclick="selecionar()">Contacteme</a></button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto1.png"alt ="estudiante">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- seccion sobre mi-->
+            <section id="sobremi">
+                <div class="fila">
+                    <div class="colinfo">
+                        <h1 class="gradient-text"> Sobre Mi</h3>
+                        <h2> Soy Aprendiz autodidacta html css Javascrip</h2>
+                        <p> Estoy haciendo mis primeras armas, en informatica despues de muchos años, dicen por ahi que nunca es tarde para aprender,
+                            asi que ahi vamos!!! el limite es la Victoria!!!
+                        </p>
+            
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/sobremi.jpg" alt="">
+
+                            
+                            </bdo>"
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- seccion mi curriculum-->
+            <section id="Curriculum">
+                <h3>Curriculum </h3>
+                <div class="fila">
+                    <div class="col">
+                        <p class ="experiencia">Experiencia</p>
+                        <h2> Mas de 2 meses de experiencia <span class="txtEspecial"> Aprendis de frondend </span></h2>
+                    </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <spam class="circulo"></spam>
+                            <h4>hola es un h4</h4>                           
+                            <p> parrafo despues del h4</p>
+                        </div>
+                        <div class="item">
+                            <spam class="circulo"></spam>
+                            <h4>hola es un h4</h4>                           
+                            <p> parrafo despues del h4</p>
+                        </div>
+                        <div class="item">
+                            <spam class="circulo"></spam>
+                            <h4>hola es un h4</h4>                           
+                            <p> parrafo despues del h4</p>
+                        </div>
+                        <div class="item">
+                            <spam class="circulo"></spam>
+                            <h4>hola es un h4</h4>                           
+                            <p> parrafo despues del h4</p>
+                        </div>
+                      
+                    </div>
+
+                </div>
+                </div>
+
+            </section>
+            <!--seccion de porfolio-->
+            <section id="porfolio">
+                <h3>Porfolio</h3>
+                <div class="fila">
+                    <div class="colo">
+                        <div class="trabajo">
+                            <img src="img/610-6109019_proceso-de-construccion-png-transparent-png.png"alt""">
+                            <p class="descripcion"> trabajo 1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!--seccion de contacto-->
+            <section id="contacto">
+                <h3>Contacto</h3>
+                <div class="redes">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook  gradient-text"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-twitter gradient-text"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-instagram gradient-text"></i>
+                    </a>
+                    <form action="" id="formulario-contacto">
+                        <div class="entrada">
+                            <label for="">Nombre</label>
+                            <input type="text">
+                        </div>
+                        <div class="entrada">
+                            <label for="">Correo</label>
+                            <input type="text">
+                        </div>
+                        <div class="entrada">
+                            <label for="">Tema</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
